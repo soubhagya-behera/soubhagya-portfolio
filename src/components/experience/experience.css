@@ -208,3 +208,93 @@
 .xp-card--compact .xp-card__list li {
   font-size: 0.82rem;
 }
+
+/* --- MOBILE-ONLY compact (680px) — tighter vertical rhythm, content-fit height --- */
+@media (max-width: 680px) {
+  .experience {
+    padding-bottom: 0.6rem;
+  }
+
+  .experience .sec-head {
+    margin-bottom: 0.9rem;
+  }
+
+  .timeline {
+    padding: 0.12rem 0 0;
+  }
+
+  .timeline__item + .timeline__item {
+    margin-top: 0.55rem;
+  }
+
+  .timeline__item--compact {
+    margin-top: 0.32rem !important;
+  }
+
+  .timeline__group {
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .xp-card {
+    padding: 0.85rem 0.9rem 0.75rem;
+  }
+
+  .xp-card__head {
+    margin-bottom: 0.35rem;
+    gap: 0.6rem;
+  }
+
+  .xp-card__org {
+    margin-top: 0.18rem;
+  }
+
+  .xp-card__loc {
+    margin-top: 0.28rem;
+  }
+
+  .xp-card__desc {
+    margin-top: 0.38rem;
+  }
+
+  .xp-card__list {
+    margin-top: 0.4rem;
+    gap: 0.26rem;
+  }
+
+  .xp-card__tech {
+    margin-top: 0.48rem;
+    gap: 0.32rem;
+  }
+
+  /* MCA — slightly tighter than desktop but still comfortable */
+  .xp-card--mca {
+    padding: 0.7rem 0.85rem 0.62rem;
+  }
+
+  .xp-card--mca .xp-card__head {
+    margin-bottom: 0.28rem;
+  }
+
+  .xp-card--mca .xp-card__list {
+    margin-top: 0.3rem;
+  }
+
+  /* B.Sc. compact — tighter bottom */
+  .xp-card--compact {
+    padding: 0.55rem 0.75rem 0.5rem;
+  }
+
+  .xp-card--compact .xp-card__head {
+    margin-bottom: 0.22rem;
+  }
+
+  .xp-card--compact .xp-card__loc {
+    margin-top: 0.16rem;
+  }
+
+  .xp-card--compact .xp-card__list {
+    margin-top: 0.24rem;
+    gap: 0.14rem;
+  }
+}

@@ -131,9 +131,27 @@
 @media (max-width: 800px) {
   .stack__grid {
     grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    align-items: start;
+    gap: 1rem;
+  }
+
+  .stack__grid > div {
+    height: auto;
   }
 
   .stack-card {
     transform: none;
+    height: auto;
+    min-height: 0;
+    padding: 0.95rem 1.05rem 0.85rem;
+  }
+
+  .stack-card__head {
+    margin-bottom: 0.6rem;
+  }
+
+  .stack-card__head p {
+    margin-top: 0.35rem;
   }
 }
