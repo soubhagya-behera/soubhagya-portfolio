@@ -187,6 +187,13 @@
   flex-wrap: wrap;
 }
 
+/* desktop/laptop micro fix: reduce gap between tech chips and action buttons */
+@media (min-width: 641px) {
+  .pcard__actions {
+    margin-top: 0.35rem;
+  }
+}
+
 .pcard__actions .btn {
   font-size: 0.78rem;
   min-height: 36px;

@@ -184,8 +184,8 @@ p.pd__desc {
   box-shadow: var(--shadow-md);
   overflow: hidden;
   background: var(--white);
-  aspect-ratio: 16 / 9.2;
-  max-height: 430px;
+  aspect-ratio: 16 / 10;
+  max-height: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
