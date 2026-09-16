@@ -276,6 +276,9 @@
   .pcard__media {
     height: 180px;
   }
+  .pcard__actions {
+    margin-top: 0.35rem;
+  }
 }
 
 /* legacy pcard--wide no longer used but keep harmless */
