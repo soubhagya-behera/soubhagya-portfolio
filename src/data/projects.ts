@@ -107,7 +107,7 @@ export const projects: Project[] = [
       'Optimistic locking turns lost-update bugs into visible version conflicts you can reason about.',
     ],
     githubUrl: 'https://github.com/soubhagya-behera/flashreserve',
-    demo: 'YOUR_LIVE_DEMO_URL',
+    demo: 'https://frontend-mu-six-21.vercel.app/',
     image: '/projects/flashreserve.webp',
     imageAlt: 'FlashReserve - High-Concurrency Reservation Engine preview',
     featured: true,
