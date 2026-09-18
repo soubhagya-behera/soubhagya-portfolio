@@ -7,7 +7,7 @@ type Props = {
 }
 
 const LINES = [
-  { text: 'INITIALIZING SOUBHAGYA.DEV...', accent: false },
+  { text: 'INITIALIZING SOUBHAGYA-DEV...', accent: false },
   { text: 'ESTABLISHING SECURE CONNECTION...', accent: false },
   { text: 'LOADING PORTFOLIO MODULES...', accent: false },
   { text: 'VERIFYING SYSTEM...', accent: false },
@@ -98,7 +98,7 @@ export function HackerBoot({ onDone }: Props) {
 
         <div className={`hboot__reveal${showTitle ? ' is-visible' : ''}`}>
           <div className="hboot__title-row">
-            <h1 className="hboot__title">SOUBHAGYA.DEV</h1>
+            <h1 className="hboot__title">SOUBHAGYA-DEV</h1>
             <span className="hboot__cursor hboot__cursor--title" aria-hidden="true" />
           </div>
           <p className="hboot__subtitle">JAVA FULL-STACK DEVELOPER</p>
