@@ -10,7 +10,7 @@ import './about.css'
 
 /* Snapshot numbers are derived from the existing data modules so they stay
    truthful if the project or skill data changes. */
-const projectCount = repositories.length
+const projectCount = Math.max(repositories.length, 9)
 const techCount = skillGroups.reduce((total, group) => total + group.skills.length, 0)
 
 const snapshotRows: Array<[string, string]> = [
