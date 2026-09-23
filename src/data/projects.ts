@@ -9,10 +9,10 @@ export const projects: Project[] = [
     category: 'High-Concurrency Booking Engine',
     accent: 'mint',
     role: 'Backend-Focused Full Stack Developer',
-    duration: 'Ongoing',
+    duration: '3 Months',
     teamSize: 'Individual',
-    status: 'In Progress',
-    year: '2025',
+    status: 'Completed',
+    year: '2026',
     description:
       'High-concurrency reservation engine with Redis distributed locking, PostgreSQL optimistic locking and 5-minute holds — built to survive real seat-race conditions.',
     longDescription: [
@@ -119,11 +119,11 @@ export const projects: Project[] = [
     title: 'Secure Digital Banking Management System',
     category: 'SECURE DIGITAL BANKING',
     accent: 'yellow',
-    role: 'Full Stack Developer',
-    duration: '2024 — 2025',
+    role: 'Backend Developer',
+    duration: '2025 — 2026(5 Months)',
     teamSize: 'Individual',
     status: 'Completed',
-    year: '2024',
+    year: '2025',
     description:
       'Full-stack digital banking application built with Java and Spring Boot, providing secure account operations, fund transfers, loan management, payment processing, fraud monitoring, OTP authentication and AI-assisted customer support.',
     longDescription: [
@@ -386,7 +386,7 @@ export const projects: Project[] = [
     duration: '6 Months',
     teamSize: 'Individual',
     status: 'Completed',
-    year: '2024',
+    year: '2026',
     description:
       'Full-stack grocery delivery platform built with Spring Boot, React and PostgreSQL, featuring JWT authentication, role-based dashboards, product and inventory management, order workflows, Razorpay payments and delivery operations with dedicated User, Seller, Delivery Partner and Admin workflows.',
     longDescription: [
@@ -520,10 +520,10 @@ export const projects: Project[] = [
     category: 'REAL-TIME COMMUNICATION',
     accent: 'mint',
     role: 'Full Stack Developer',
-    duration: '2026 — Present',
+    duration: '3 Months',
     teamSize: 'Individual',
-    status: 'In development',
-    year: '2024',
+    status: 'Completed',
+    year: '2026',
     description:
       'Real-time chat platform built with Spring Boot, React, PostgreSQL and WebSocket/STOMP for instant messaging, presence updates and interactive communication.',
     longDescription: [
