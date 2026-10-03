@@ -23,7 +23,7 @@
   border: var(--border-w) solid var(--ink);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
-  padding: clamp(1.3rem, 3vw, 1.9rem);
+  padding: clamp(1rem, 2.2vw, 1.3rem) clamp(1.3rem, 3vw, 1.9rem);
   transform: rotate(0.35deg);
   transition:
     transform var(--dur-med) var(--spring),
@@ -40,11 +40,11 @@
 }
 
 .stack-card__head {
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.8rem;
 }
 
 .stack-card__head p {
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
   font-size: 0.88rem;
   color: var(--ink-soft);
 }

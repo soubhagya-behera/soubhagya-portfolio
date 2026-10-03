@@ -314,22 +314,22 @@
 
 /* --- MOBILE-ONLY density pass (680px) ------------------------------------ */
 @media (max-width: 680px) {
-  /* Slim mobile rail. Node outer edge = 21px + 2 x 3px border = 27px, so flush at
-     left: 0 its centre is 13.5px; the rail (left + 3px border / 2) matches at
-     left: 12px. Cards start at 35px = 27px node + 8px gap, which clears the 7px
-     offset shadow, replacing the 44.8px desktop gutter with ~10px more card width. */
+  /* Slim mobile rail. Node outer edge = 21px + 2 x 3px border = 27px, so at
+     left: -3px its centre is 10.5px; the rail (left + 3px border / 2) matches at
+     left: 9px. Cards start at 32px = 24px node + 8px gap, which clears the 7px
+     offset shadow, replacing the 44.8px desktop gutter with ~13px more card width. */
   .timeline::before {
-    left: 12px;
+    left: 9px;
   }
 
   .timeline__node {
-    left: 0;
+    left: -3px;
     top: 22px;
   }
 
   .timeline__item,
   .timeline__group {
-    padding-left: 35px;
+    padding-left: 32px;
   }
 
   .experience {
