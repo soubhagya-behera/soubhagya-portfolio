@@ -214,7 +214,7 @@ export function GitHubSection() {
         </Reveal>
 
         <Reveal delay={110}>
-          <p className="lead gh__sub">A snapshot of my GitHub activity, contributions and open-source work.</p>
+          <p className="lead gh__sub">A snapshot of my public repositories, commit activity and contribution graph.</p>
         </Reveal>
 
         <div className="gh__stats" role="list" aria-label="GitHub statistics">

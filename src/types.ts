@@ -48,6 +48,16 @@ export interface Project {
   featured: boolean
 }
 
+export interface OpenSourceContribution {
+  id: string
+  project: string
+  period: string
+  summary: string
+  status: 'merged' | 'open'
+  link: string
+  technologies: string[]
+}
+
 export interface ExperienceItem {
   id: string
   kind: 'internship' | 'education' | 'independent'
@@ -58,6 +68,8 @@ export interface ExperienceItem {
   description: string
   achievements: string[]
   technologies: string[]
+  size?: 'default' | 'compact'
+  contributions?: OpenSourceContribution[]
 }
 
 export interface SkillGroup {
