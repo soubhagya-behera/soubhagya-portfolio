@@ -6,7 +6,7 @@ export const skillGroups: SkillGroup[] = [
     label: 'Frontend',
     blurb: 'React interfaces built against real APIs.',
     accent: 'cobalt',
-    skills: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Vite', 'Responsive Design'],
+    skills: ['React', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Vite', 'Responsive Design'],
   },
   {
     id: 'backend',
