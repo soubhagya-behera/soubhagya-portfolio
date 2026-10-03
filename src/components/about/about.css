@@ -339,6 +339,44 @@
   .info-card {
     min-height: auto;
   }
+
+  /* Mobile-only vertical compression: trim whitespace, keep content identical. */
+  .dev-card__head,
+  .info-card__head {
+    padding: 0.6em 0.85em;
+  }
+
+  .info-card__body {
+    gap: 0.35rem;
+    padding: 0.45rem 0.85rem 0.2rem;
+  }
+
+  .dev-card__rows {
+    padding: 0.45rem 0.85rem 0.2rem;
+  }
+
+  .dev-card__rows > div {
+    padding: 0.28rem 0;
+  }
+
+  .info-card__rows > div {
+    padding: 0.26rem 0;
+  }
+
+  .info-card__list li {
+    padding: 0.26rem 0 0.26rem 1.15rem;
+  }
+
+  .dev-card__foot,
+  .info-card__foot {
+    padding: 0.35rem 0.85rem 0.55rem;
+  }
+
+  .about-card__barcode,
+  .dev-card__barcode,
+  .info-card__barcode {
+    height: 24px;
+  }
 }
 
 @media (max-width: 400px) {
