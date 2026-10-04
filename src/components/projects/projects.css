@@ -303,3 +303,10 @@
 .pcard--wide {
   flex-direction: column;
 }
+
+/* Mobile-only: tighten subtitle → first card gap */
+@media (max-width: 680px) {
+  .projects .sec-head {
+    margin-bottom: 0.7rem;
+  }
+}

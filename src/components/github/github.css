@@ -317,6 +317,7 @@
   .gh__stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.65rem;
+    margin-top: 0.75rem;
   }
   .gh-stat__card {
     height: auto;

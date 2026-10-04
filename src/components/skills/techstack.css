@@ -160,3 +160,10 @@
     column-gap: 0.55rem;
   }
 }
+
+/* Mobile-only: tighten subtitle → first card gap */
+@media (max-width: 680px) {
+  .stack .sec-head {
+    margin-bottom: 0.7rem;
+  }
+}

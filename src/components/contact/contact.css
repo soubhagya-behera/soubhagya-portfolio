@@ -517,3 +517,10 @@
     height: 44px;
   }
 }
+
+/* Mobile-only: tighten subtitle → email card gap */
+@media (max-width: 680px) {
+  .contact .sec-head {
+    margin-bottom: 0.7rem;
+  }
+}
