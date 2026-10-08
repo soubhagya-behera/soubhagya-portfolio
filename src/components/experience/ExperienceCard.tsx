@@ -3,6 +3,7 @@ import type { ExperienceItem, OpenSourceContribution } from '../../types'
 
 interface ExperienceCardProps {
   item: ExperienceItem
+  contributions?: OpenSourceContribution[]
 }
 
 const PULL_REQUEST_NUMBER = /\/pull\/(\d+)/
@@ -10,6 +11,7 @@ const PULL_REQUEST_NUMBER = /\/pull\/(\d+)/
 const STATUS_META = {
   merged: { label: 'Merged', Icon: GitMerge },
   open: { label: 'Open', Icon: GitPullRequest },
+  closed: { label: 'Closed', Icon: GitPullRequest },
 } as const
 
 function ContributionBlock({ contribution }: { contribution: OpenSourceContribution }) {
@@ -54,8 +56,8 @@ function ContributionBlock({ contribution }: { contribution: OpenSourceContribut
   )
 }
 
-export function ExperienceCard({ item }: ExperienceCardProps) {
-  const contributions = item.contributions ?? []
+export function ExperienceCard({ item, contributions: contributionsOverride }: ExperienceCardProps) {
+  const contributions = contributionsOverride ?? item.contributions ?? []
   const hasContributions = contributions.length > 0
   const className = ['xp-card', `xp-card--${item.kind}`, item.size === 'compact' ? 'xp-card--compact' : '']
     .filter(Boolean)

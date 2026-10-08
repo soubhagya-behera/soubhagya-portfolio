@@ -6,6 +6,7 @@ import { SectionHeader } from '../ui/SectionHeader'
 import { Sticker } from '../ui/Sticker'
 import { ExperienceCard } from './ExperienceCard'
 import { experience } from '../../data/experience'
+import { useOssContributions } from '../../hooks/useOssPrs'
 import type { ExperienceItem } from '../../types'
 import './experience.css'
 
@@ -25,6 +26,7 @@ const GROUPS: ExperienceGroup[] = [
 ]
 
 export function Experience() {
+  const ossContributions = useOssContributions()
   return (
     <section id="experience" className="section experience">
       <div className="container">
@@ -53,7 +55,10 @@ export function Experience() {
                   <li key={item.id} className="timeline__item">
                     <span className={`timeline__node timeline__node--${item.kind}`} aria-hidden="true" />
                     <Reveal delay={index * 100}>
-                      <ExperienceCard item={item} />
+                      <ExperienceCard
+                        item={item}
+                        contributions={item.id === 'open-source' ? ossContributions : undefined}
+                      />
                     </Reveal>
                   </li>
                 ))}

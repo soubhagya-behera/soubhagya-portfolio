@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "oss:fetch": "node scripts/fetch-oss-prs.mjs",
+    "prebuild": "node scripts/fetch-oss-prs.mjs",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"

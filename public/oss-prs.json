@@ -1,0 +1,49 @@
+{
+  "fetchedAt": "2026-10-08T16:01:57.706Z",
+  "prs": [
+    {
+      "contributionId": "agentj-locale-keyword",
+      "repository": "anirudhnshandilya/agentj",
+      "number": 24,
+      "title": "fix(jev): make keyword matching locale-independent",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T06:14:16Z",
+      "merged_at": "2026-10-08T09:58:38Z",
+      "html_url": "https://github.com/anirudhnshandilya/agentj/pull/24"
+    },
+    {
+      "contributionId": "quarkus-artifact-metadata",
+      "repository": "quarkusio/quarkus",
+      "number": 57221,
+      "title": "Skip artifact metadata for test host",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T13:27:20Z",
+      "merged_at": null,
+      "html_url": "https://github.com/quarkusio/quarkus/pull/57221"
+    },
+    {
+      "contributionId": "kestra-plugin-serdes",
+      "repository": "kestra-io/plugin-serdes",
+      "number": 423,
+      "title": "fix(avro): apply nullValues consistently to nullable unions",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T06:37:27Z",
+      "merged_at": "2026-10-01T09:26:18Z",
+      "html_url": "https://github.com/kestra-io/plugin-serdes/pull/423"
+    },
+    {
+      "contributionId": "mcp-java-testkit",
+      "repository": "senor14/mcp-java-testkit",
+      "number": 25,
+      "title": "test: verify spring URL with Spring AI WebFlux and WebMVC",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T08:00:25Z",
+      "merged_at": null,
+      "html_url": "https://github.com/senor14/mcp-java-testkit/pull/25"
+    }
+  ]
+}

@@ -53,7 +53,7 @@ export interface OpenSourceContribution {
   project: string
   period: string
   summary: string
-  status: 'merged' | 'open'
+  status: 'merged' | 'open' | 'closed'
   link: string
   technologies: string[]
 }

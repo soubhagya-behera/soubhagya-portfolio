@@ -11,24 +11,24 @@ export const experience: ExperienceItem[] = [
     description: '',
     contributions: [
       {
+        id: 'agentj-locale-keyword',
+        project: 'AgentJ',
+        period: 'Oct. 8, 2026',
+        summary:
+          'Made keyword matching locale-independent with Locale.ROOT and added regression coverage for Turkish locale behavior.',
+        status: 'merged',
+        link: 'https://github.com/anirudhnshandilya/agentj/pull/24',
+        technologies: ['Java', 'Maven', 'JUnit'],
+      },
+      {
         id: 'quarkus-artifact-metadata',
         project: 'Quarkus',
         period: 'Oct. 7, 2026',
         summary:
           'Avoided unnecessary artifact metadata loading for test-host integration tests and added focused regression coverage.',
         status: 'open',
-        link: 'https://github.com/soubhagya-behera/quarkus/pull/57221',
+        link: 'https://github.com/quarkusio/quarkus/pull/57221',
         technologies: ['Java', 'Quarkus', 'JUnit'],
-      },
-      {
-        id: 'agentj-locale-keyword',
-        project: 'AgentJ',
-        period: 'Oct. 8, 2026',
-        summary:
-          'Made keyword matching locale-independent with Locale.ROOT and added regression coverage for Turkish locale behavior.',
-        status: 'open',
-        link: 'https://github.com/soubhagya-behera/agentj/pull/24',
-        technologies: ['Java', 'Maven', 'JUnit'],
       },
       {
         id: 'kestra-plugin-serdes',
